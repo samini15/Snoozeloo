@@ -62,6 +62,9 @@ dependencies {
 
     //implementation(libs.androidx.core.splashscreen)
     implementation("androidx.core:core-splashscreen:1.0.1")
+
+    implementation(libs.bundles.koin)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
