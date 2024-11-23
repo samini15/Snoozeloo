@@ -62,6 +62,7 @@ dependencies {
 
     //implementation(libs.androidx.core.splashscreen)
     implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation(libs.androidx.navigation.compose)
 
     implementation(libs.bundles.koin)
 
